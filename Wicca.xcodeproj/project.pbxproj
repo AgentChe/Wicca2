@@ -1,0 +1,1142 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		990A63EF25DFABC800406AA0 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990A63EE25DFABC800406AA0 /* NotesViewController.swift */; };
+		990B310625CBABFC00AB2295 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990B310525CBABFC00AB2295 /* FavoritesViewController.swift */; };
+		99217F4C25CBBD350061A658 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99217F4B25CBBD350061A658 /* ContentViewController.swift */; };
+		992AE9FC25C1765000BC5A75 /* SubCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992AE9FB25C1765000BC5A75 /* SubCategoryViewController.swift */; };
+		993D292225C19AC100599B74 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993D292125C19AC100599B74 /* SideMenuViewController.swift */; };
+		993D292625C19F9200599B74 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993D292425C19F9200599B74 /* SideMenuTableViewCell.swift */; };
+		993D292725C19F9200599B74 /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 993D292525C19F9200599B74 /* SideMenuTableViewCell.xib */; };
+		994DAD0925DA9BED00C83A05 /* CandleColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994DAD0825DA9BED00C83A05 /* CandleColorModel.swift */; };
+		9957F74D25D14E63006E3F4E /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9957F74C25D14E63006E3F4E /* FavoriteViewModel.swift */; };
+		9957F75125D150D8006E3F4E /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9957F75025D150D8006E3F4E /* FavoriteModel.swift */; };
+		99599B3725CAC6C100CC1AF4 /* LunarCalenderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99599B3625CAC6C100CC1AF4 /* LunarCalenderModel.swift */; };
+		995AB03E26241D6000B73D2C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995AB03D26241D6000B73D2C /* GoogleService-Info.plist */; };
+		995AB0422624393D00B73D2C /* WiccaIPAProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995AB0412624393D00B73D2C /* WiccaIPAProducts.swift */; };
+		995AB04426243A4000B73D2C /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995AB04326243A4000B73D2C /* IAPManager.swift */; };
+		995AB04626243D3D00B73D2C /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995AB04526243D3D00B73D2C /* DateFormat.swift */; };
+		995AB04A262442D300B73D2C /* RefreshManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995AB049262442D300B73D2C /* RefreshManager.swift */; };
+		995AB04C26244B4D00B73D2C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995AB04B26244B4D00B73D2C /* StoreKit.framework */; };
+		9964E91825E79512008865B3 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9964E91725E79512008865B3 /* AboutViewController.swift */; };
+		996640BB25C972D100229877 /* HerbsAndOilsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996640BA25C972D100229877 /* HerbsAndOilsHeader.swift */; };
+		996640BD25C972DD00229877 /* HerbsAndOilsHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 996640BC25C972DD00229877 /* HerbsAndOilsHeader.xib */; };
+		996FAFF325C14C5C00D074DF /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996FAFF225C14C5C00D074DF /* CategoryViewController.swift */; };
+		996FAFF525C1521D00D074DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996FAFF425C1521D00D074DF /* ViewController.swift */; };
+		996FAFF925C1526900D074DF /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996FAFF725C1526900D074DF /* CategoryTableViewCell.swift */; };
+		996FAFFA25C1526900D074DF /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 996FAFF825C1526900D074DF /* CategoryTableViewCell.xib */; };
+		99767E8A25C7C7DA00272148 /* SpellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99767E8925C7C7DA00272148 /* SpellModel.swift */; };
+		997C92BF25DA916100B8892C /* CalendarEventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997C92BE25DA916100B8892C /* CalendarEventModel.swift */; };
+		99A0647E262067AA00B637ED /* UnlockWiccaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A0647D262067AA00B637ED /* UnlockWiccaViewController.swift */; };
+		99A0648226206B6B00B637ED /* WiccaLogoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A0648026206B6B00B637ED /* WiccaLogoTableViewCell.swift */; };
+		99A0648326206B6B00B637ED /* WiccaLogoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99A0648126206B6B00B637ED /* WiccaLogoTableViewCell.xib */; };
+		99A064862620768D00B637ED /* FeaturesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A064842620768D00B637ED /* FeaturesTableViewCell.swift */; };
+		99A064872620768E00B637ED /* FeaturesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99A064852620768D00B637ED /* FeaturesTableViewCell.xib */; };
+		99A227E525CAA840004AD01E /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A227E425CAA840004AD01E /* CalendarViewController.swift */; };
+		99A356932624053500DA59BD /* PurchaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A356912624053500DA59BD /* PurchaseTableViewCell.swift */; };
+		99A356942624053500DA59BD /* PurchaseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99A356922624053500DA59BD /* PurchaseTableViewCell.xib */; };
+		99B4972525E4D3B3009D9224 /* LunarMoonPhasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B4972425E4D3B3009D9224 /* LunarMoonPhasesViewController.swift */; };
+		99C5415225DAB3680039E8AD /* LunarCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C5415125DAB3680039E8AD /* LunarCalendarViewController.swift */; };
+		99CF272125CBD5AE00464A9F /* CandleColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CF272025CBD5AE00464A9F /* CandleColorsViewController.swift */; };
+		99CFD41425C01556003C98E1 /* BaseNavi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD41325C01556003C98E1 /* BaseNavi.swift */; };
+		99CFD41625C01564003C98E1 /* BaseVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD41525C01564003C98E1 /* BaseVc.swift */; };
+		99CFD41D25C016C3003C98E1 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99CFD41B25C016C3003C98E1 /* PlayfairDisplay-VariableFont_wght.ttf */; };
+		99CFD41E25C016C3003C98E1 /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99CFD41C25C016C3003C98E1 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */; };
+		99CFD42B25C016D1003C98E1 /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99CFD41F25C016D0003C98E1 /* PlayfairDisplay-Regular.ttf */; };
+		99CFD42C25C016D1003C98E1 /* PlayfairDisplay-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99CFD42025C016D0003C98E1 /* PlayfairDisplay-ExtraBold.ttf */; };
+		99CFD42D25C016D1003C98E1 /* PlayfairDisplay-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99CFD42125C016D1003C98E1 /* PlayfairDisplay-BoldItalic.ttf */; };
+		99CFD42E25C016D1003C98E1 /* PlayfairDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99CFD42225C016D1003C98E1 /* PlayfairDisplay-Medium.ttf */; };
+		99CFD42F25C016D1003C98E1 /* PlayfairDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99CFD42325C016D1003C98E1 /* PlayfairDisplay-SemiBold.ttf */; };
+		99CFD43025C016D1003C98E1 /* PlayfairDisplay-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99CFD42425C016D1003C98E1 /* PlayfairDisplay-MediumItalic.ttf */; };
+		99CFD43125C016D1003C98E1 /* PlayfairDisplay-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99CFD42525C016D1003C98E1 /* PlayfairDisplay-SemiBoldItalic.ttf */; };
+		99CFD43225C016D1003C98E1 /* PlayfairDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99CFD42625C016D1003C98E1 /* PlayfairDisplay-Black.ttf */; };
+		99CFD43325C016D1003C98E1 /* PlayfairDisplay-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99CFD42725C016D1003C98E1 /* PlayfairDisplay-ExtraBoldItalic.ttf */; };
+		99CFD43425C016D1003C98E1 /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99CFD42825C016D1003C98E1 /* PlayfairDisplay-Bold.ttf */; };
+		99CFD43525C016D1003C98E1 /* PlayfairDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99CFD42925C016D1003C98E1 /* PlayfairDisplay-Italic.ttf */; };
+		99CFD43625C016D1003C98E1 /* PlayfairDisplay-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99CFD42A25C016D1003C98E1 /* PlayfairDisplay-BlackItalic.ttf */; };
+		99CFD43925C017CE003C98E1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99CFD43B25C017CE003C98E1 /* Localizable.strings */; };
+		99CFD43E25C01875003C98E1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD43D25C01875003C98E1 /* Constants.swift */; };
+		99CFD44425C018E1003C98E1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD44025C018E1003C98E1 /* API.swift */; };
+		99CFD44525C018E1003C98E1 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD44125C018E1003C98E1 /* Network.swift */; };
+		99CFD44625C018E1003C98E1 /* JsonDecoderEncoder+Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD44225C018E1003C98E1 /* JsonDecoderEncoder+Any.swift */; };
+		99CFD44725C018E1003C98E1 /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD44325C018E1003C98E1 /* HTTPStatusCode.swift */; };
+		99CFD44F25C01A93003C98E1 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD44E25C01A93003C98E1 /* Reachability.swift */; };
+		99CFD45325C01AC7003C98E1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD45225C01AC7003C98E1 /* SwiftyJSON.swift */; };
+		99CFD45725C01B19003C98E1 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD45625C01B19003C98E1 /* StorageManager.swift */; };
+		99CFD45D25C01B8B003C98E1 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD45C25C01B8B003C98E1 /* UIViewExt.swift */; };
+		99CFD45F25C01DA7003C98E1 /* FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD45E25C01DA6003C98E1 /* FoundationExtension.swift */; };
+		99CFD46125C01E9F003C98E1 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD46025C01E9F003C98E1 /* UIKitExtension.swift */; };
+		99CFD46625C01FB2003C98E1 /* AttributedStringBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD46225C01FB2003C98E1 /* AttributedStringBuilder.swift */; };
+		99CFD46725C01FB2003C98E1 /* StoryboardScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD46325C01FB2003C98E1 /* StoryboardScene.swift */; };
+		99CFD46825C01FB2003C98E1 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD46425C01FB2003C98E1 /* Color+Ext.swift */; };
+		99CFD46925C01FB2003C98E1 /* Fonts+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD46525C01FB2003C98E1 /* Fonts+Ext.swift */; };
+		99CFD47025C02619003C98E1 /* gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 99CFD46F25C02618003C98E1 /* gitignore */; };
+		99CFD47425C029D7003C98E1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD47325C029D7003C98E1 /* HomeViewController.swift */; };
+		99CFD47C25C03F46003C98E1 /* MenuItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD47A25C03F46003C98E1 /* MenuItemCollectionViewCell.swift */; };
+		99CFD47D25C03F46003C98E1 /* MenuItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99CFD47B25C03F46003C98E1 /* MenuItemCollectionViewCell.xib */; };
+		99DB88F725C9586D00F678E5 /* HerbsAndOilsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DB88F625C9586D00F678E5 /* HerbsAndOilsViewController.swift */; };
+		99DB88FB25C9597A00F678E5 /* HerbsAndOilsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DB88FA25C9597A00F678E5 /* HerbsAndOilsModel.swift */; };
+		99E0127D25C2A3E3009E0529 /* SpellCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E0127C25C2A3E3009E0529 /* SpellCategoryModel.swift */; };
+		99E8B2C925BEEC8F009C35A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E8B2C825BEEC8F009C35A6 /* AppDelegate.swift */; };
+		99E8B2CE25BEEC8F009C35A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E8B2CC25BEEC8F009C35A6 /* Main.storyboard */; };
+		99E8B2D025BEEC92009C35A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E8B2CF25BEEC92009C35A6 /* Assets.xcassets */; };
+		99E8B2D325BEEC92009C35A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E8B2D125BEEC92009C35A6 /* LaunchScreen.storyboard */; };
+		C271018FCB348F799C467B69 /* Pods_Wicca.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02E5F698D7EB3F84805C21E /* Pods_Wicca.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3886A635BB75636C8C206E42 /* Pods-Wicca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wicca.debug.xcconfig"; path = "Target Support Files/Pods-Wicca/Pods-Wicca.debug.xcconfig"; sourceTree = "<group>"; };
+		8895E5E28FC0ECD9F082DBDB /* Pods-Wicca.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wicca.release.xcconfig"; path = "Target Support Files/Pods-Wicca/Pods-Wicca.release.xcconfig"; sourceTree = "<group>"; };
+		990A63EE25DFABC800406AA0 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		990B310525CBABFC00AB2295 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		99217F4B25CBBD350061A658 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		992AE9FB25C1765000BC5A75 /* SubCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryViewController.swift; sourceTree = "<group>"; };
+		993D292125C19AC100599B74 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		993D292425C19F9200599B74 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		993D292525C19F9200599B74 /* SideMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuTableViewCell.xib; sourceTree = "<group>"; };
+		994DAD0825DA9BED00C83A05 /* CandleColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleColorModel.swift; sourceTree = "<group>"; };
+		9957F74C25D14E63006E3F4E /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
+		9957F75025D150D8006E3F4E /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
+		99599B3625CAC6C100CC1AF4 /* LunarCalenderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarCalenderModel.swift; sourceTree = "<group>"; };
+		995AB03D26241D6000B73D2C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		995AB0412624393D00B73D2C /* WiccaIPAProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiccaIPAProducts.swift; sourceTree = "<group>"; };
+		995AB04326243A4000B73D2C /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		995AB04526243D3D00B73D2C /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
+		995AB049262442D300B73D2C /* RefreshManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshManager.swift; sourceTree = "<group>"; };
+		995AB04B26244B4D00B73D2C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9964E91725E79512008865B3 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		996640BA25C972D100229877 /* HerbsAndOilsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbsAndOilsHeader.swift; sourceTree = "<group>"; };
+		996640BC25C972DD00229877 /* HerbsAndOilsHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HerbsAndOilsHeader.xib; sourceTree = "<group>"; };
+		996FAFF225C14C5C00D074DF /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		996FAFF425C1521D00D074DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		996FAFF725C1526900D074DF /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		996FAFF825C1526900D074DF /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		99767E8925C7C7DA00272148 /* SpellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellModel.swift; sourceTree = "<group>"; };
+		997C92BE25DA916100B8892C /* CalendarEventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEventModel.swift; sourceTree = "<group>"; };
+		99A0647D262067AA00B637ED /* UnlockWiccaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockWiccaViewController.swift; sourceTree = "<group>"; };
+		99A0648026206B6B00B637ED /* WiccaLogoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiccaLogoTableViewCell.swift; sourceTree = "<group>"; };
+		99A0648126206B6B00B637ED /* WiccaLogoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WiccaLogoTableViewCell.xib; sourceTree = "<group>"; };
+		99A064842620768D00B637ED /* FeaturesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesTableViewCell.swift; sourceTree = "<group>"; };
+		99A064852620768D00B637ED /* FeaturesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeaturesTableViewCell.xib; sourceTree = "<group>"; };
+		99A227E425CAA840004AD01E /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		99A356912624053500DA59BD /* PurchaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseTableViewCell.swift; sourceTree = "<group>"; };
+		99A356922624053500DA59BD /* PurchaseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PurchaseTableViewCell.xib; sourceTree = "<group>"; };
+		99B4972425E4D3B3009D9224 /* LunarMoonPhasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarMoonPhasesViewController.swift; sourceTree = "<group>"; };
+		99C5415125DAB3680039E8AD /* LunarCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunarCalendarViewController.swift; sourceTree = "<group>"; };
+		99CF272025CBD5AE00464A9F /* CandleColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleColorsViewController.swift; sourceTree = "<group>"; };
+		99CFD41325C01556003C98E1 /* BaseNavi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavi.swift; sourceTree = "<group>"; };
+		99CFD41525C01564003C98E1 /* BaseVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVc.swift; sourceTree = "<group>"; };
+		99CFD41B25C016C3003C98E1 /* PlayfairDisplay-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		99CFD41C25C016C3003C98E1 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		99CFD41F25C016D0003C98E1 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		99CFD42025C016D0003C98E1 /* PlayfairDisplay-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-ExtraBold.ttf"; sourceTree = "<group>"; };
+		99CFD42125C016D1003C98E1 /* PlayfairDisplay-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-BoldItalic.ttf"; sourceTree = "<group>"; };
+		99CFD42225C016D1003C98E1 /* PlayfairDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		99CFD42325C016D1003C98E1 /* PlayfairDisplay-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-SemiBold.ttf"; sourceTree = "<group>"; };
+		99CFD42425C016D1003C98E1 /* PlayfairDisplay-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-MediumItalic.ttf"; sourceTree = "<group>"; };
+		99CFD42525C016D1003C98E1 /* PlayfairDisplay-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		99CFD42625C016D1003C98E1 /* PlayfairDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Black.ttf"; sourceTree = "<group>"; };
+		99CFD42725C016D1003C98E1 /* PlayfairDisplay-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		99CFD42825C016D1003C98E1 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		99CFD42925C016D1003C98E1 /* PlayfairDisplay-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Italic.ttf"; sourceTree = "<group>"; };
+		99CFD42A25C016D1003C98E1 /* PlayfairDisplay-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-BlackItalic.ttf"; sourceTree = "<group>"; };
+		99CFD43A25C017CE003C98E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		99CFD43D25C01875003C98E1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		99CFD44025C018E1003C98E1 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		99CFD44125C018E1003C98E1 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		99CFD44225C018E1003C98E1 /* JsonDecoderEncoder+Any.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JsonDecoderEncoder+Any.swift"; sourceTree = "<group>"; };
+		99CFD44325C018E1003C98E1 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		99CFD44E25C01A93003C98E1 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		99CFD45225C01AC7003C98E1 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		99CFD45625C01B19003C98E1 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		99CFD45C25C01B8B003C98E1 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		99CFD45E25C01DA6003C98E1 /* FoundationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationExtension.swift; sourceTree = "<group>"; };
+		99CFD46025C01E9F003C98E1 /* UIKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
+		99CFD46225C01FB2003C98E1 /* AttributedStringBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedStringBuilder.swift; sourceTree = "<group>"; };
+		99CFD46325C01FB2003C98E1 /* StoryboardScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardScene.swift; sourceTree = "<group>"; };
+		99CFD46425C01FB2003C98E1 /* Color+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		99CFD46525C01FB2003C98E1 /* Fonts+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fonts+Ext.swift"; sourceTree = "<group>"; };
+		99CFD46B25C023EB003C98E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		99CFD46F25C02618003C98E1 /* gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gitignore; sourceTree = "<group>"; };
+		99CFD47325C029D7003C98E1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		99CFD47A25C03F46003C98E1 /* MenuItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		99CFD47B25C03F46003C98E1 /* MenuItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		99DB88F625C9586D00F678E5 /* HerbsAndOilsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbsAndOilsViewController.swift; sourceTree = "<group>"; };
+		99DB88FA25C9597A00F678E5 /* HerbsAndOilsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbsAndOilsModel.swift; sourceTree = "<group>"; };
+		99E0127C25C2A3E3009E0529 /* SpellCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellCategoryModel.swift; sourceTree = "<group>"; };
+		99E8B2C525BEEC8F009C35A6 /* Wicca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wicca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E8B2C825BEEC8F009C35A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99E8B2CD25BEEC8F009C35A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99E8B2CF25BEEC92009C35A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99E8B2D225BEEC92009C35A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99E8B2D425BEEC92009C35A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F02E5F698D7EB3F84805C21E /* Pods_Wicca.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wicca.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99E8B2C225BEEC8F009C35A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C271018FCB348F799C467B69 /* Pods_Wicca.framework in Frameworks */,
+				995AB04C26244B4D00B73D2C /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C599D563BE42CC01C1F3DD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3886A635BB75636C8C206E42 /* Pods-Wicca.debug.xcconfig */,
+				8895E5E28FC0ECD9F082DBDB /* Pods-Wicca.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A4037E843F6A90BA49A2ADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				995AB04B26244B4D00B73D2C /* StoreKit.framework */,
+				F02E5F698D7EB3F84805C21E /* Pods_Wicca.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		990A63ED25DFAB9E00406AA0 /* NotesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				990A63EE25DFABC800406AA0 /* NotesViewController.swift */,
+			);
+			path = NotesViewController;
+			sourceTree = "<group>";
+		};
+		990B310325CBABC900AB2295 /* FavoritesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				990B310525CBABFC00AB2295 /* FavoritesViewController.swift */,
+			);
+			path = FavoritesViewController;
+			sourceTree = "<group>";
+		};
+		99217F4A25CBBD170061A658 /* ContentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99217F4B25CBBD350061A658 /* ContentViewController.swift */,
+			);
+			path = ContentViewController;
+			sourceTree = "<group>";
+		};
+		992AE9F925C1762800BC5A75 /* SpellsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				992AE9FB25C1765000BC5A75 /* SubCategoryViewController.swift */,
+			);
+			path = SpellsViewController;
+			sourceTree = "<group>";
+		};
+		993D291E25C19A9A00599B74 /* SideMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				993D292325C19F7C00599B74 /* CellXIB */,
+				993D292125C19AC100599B74 /* SideMenuViewController.swift */,
+			);
+			path = SideMenuViewController;
+			sourceTree = "<group>";
+		};
+		993D292325C19F7C00599B74 /* CellXIB */ = {
+			isa = PBXGroup;
+			children = (
+				993D292425C19F9200599B74 /* SideMenuTableViewCell.swift */,
+				993D292525C19F9200599B74 /* SideMenuTableViewCell.xib */,
+			);
+			path = CellXIB;
+			sourceTree = "<group>";
+		};
+		994DAD0725DA9BC500C83A05 /* CandleColorModel */ = {
+			isa = PBXGroup;
+			children = (
+				994DAD0825DA9BED00C83A05 /* CandleColorModel.swift */,
+			);
+			path = CandleColorModel;
+			sourceTree = "<group>";
+		};
+		9957F74B25D14E40006E3F4E /* FavoriteViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9957F74C25D14E63006E3F4E /* FavoriteViewModel.swift */,
+			);
+			path = FavoriteViewModel;
+			sourceTree = "<group>";
+		};
+		9957F74E25D150BE006E3F4E /* FavoriteModel */ = {
+			isa = PBXGroup;
+			children = (
+				9957F75025D150D8006E3F4E /* FavoriteModel.swift */,
+			);
+			path = FavoriteModel;
+			sourceTree = "<group>";
+		};
+		99599B3525CAC6A500CC1AF4 /* LunarCalenderModel */ = {
+			isa = PBXGroup;
+			children = (
+				99599B3625CAC6C100CC1AF4 /* LunarCalenderModel.swift */,
+			);
+			path = LunarCalenderModel;
+			sourceTree = "<group>";
+		};
+		995AB0402624391000B73D2C /* IAP Helper */ = {
+			isa = PBXGroup;
+			children = (
+				995AB0412624393D00B73D2C /* WiccaIPAProducts.swift */,
+				995AB04326243A4000B73D2C /* IAPManager.swift */,
+			);
+			path = "IAP Helper";
+			sourceTree = "<group>";
+		};
+		9964E91625E794FD008865B3 /* AboutViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9964E91725E79512008865B3 /* AboutViewController.swift */,
+			);
+			path = AboutViewController;
+			sourceTree = "<group>";
+		};
+		996FAFF125C14C4000D074DF /* SpellsCategoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				996FAFF625C1525200D074DF /* CellXIB */,
+				996FAFF225C14C5C00D074DF /* CategoryViewController.swift */,
+			);
+			path = SpellsCategoryViewController;
+			sourceTree = "<group>";
+		};
+		996FAFF625C1525200D074DF /* CellXIB */ = {
+			isa = PBXGroup;
+			children = (
+				996FAFF725C1526900D074DF /* CategoryTableViewCell.swift */,
+				996FAFF825C1526900D074DF /* CategoryTableViewCell.xib */,
+			);
+			path = CellXIB;
+			sourceTree = "<group>";
+		};
+		99767E8725C7C7B900272148 /* SpellModel */ = {
+			isa = PBXGroup;
+			children = (
+				99767E8925C7C7DA00272148 /* SpellModel.swift */,
+			);
+			path = SpellModel;
+			sourceTree = "<group>";
+		};
+		997AF68825BEEECE00D63672 /* ApplicationLogic */ = {
+			isa = PBXGroup;
+			children = (
+				99E8B2C825BEEC8F009C35A6 /* AppDelegate.swift */,
+			);
+			path = ApplicationLogic;
+			sourceTree = "<group>";
+		};
+		997C92BD25DA914800B8892C /* CalendarEventModel */ = {
+			isa = PBXGroup;
+			children = (
+				997C92BE25DA916100B8892C /* CalendarEventModel.swift */,
+			);
+			path = CalendarEventModel;
+			sourceTree = "<group>";
+		};
+		99A0647C2620678100B637ED /* UnlockWiccaViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99A0647F26206B4900B637ED /* CellXIB */,
+				99A0647D262067AA00B637ED /* UnlockWiccaViewController.swift */,
+			);
+			path = UnlockWiccaViewController;
+			sourceTree = "<group>";
+		};
+		99A0647F26206B4900B637ED /* CellXIB */ = {
+			isa = PBXGroup;
+			children = (
+				99A0648026206B6B00B637ED /* WiccaLogoTableViewCell.swift */,
+				99A0648126206B6B00B637ED /* WiccaLogoTableViewCell.xib */,
+				99A064842620768D00B637ED /* FeaturesTableViewCell.swift */,
+				99A064852620768D00B637ED /* FeaturesTableViewCell.xib */,
+				99A356912624053500DA59BD /* PurchaseTableViewCell.swift */,
+				99A356922624053500DA59BD /* PurchaseTableViewCell.xib */,
+			);
+			path = CellXIB;
+			sourceTree = "<group>";
+		};
+		99A227E225CAA7F4004AD01E /* CalendarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99A227E425CAA840004AD01E /* CalendarViewController.swift */,
+			);
+			path = CalendarViewController;
+			sourceTree = "<group>";
+		};
+		99A227E625CABF0A004AD01E /* LunarCalendarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99C5415125DAB3680039E8AD /* LunarCalendarViewController.swift */,
+			);
+			path = LunarCalendarViewController;
+			sourceTree = "<group>";
+		};
+		99B4972325E4D38B009D9224 /* LunarMoonPhasesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99B4972425E4D3B3009D9224 /* LunarMoonPhasesViewController.swift */,
+			);
+			path = LunarMoonPhasesViewController;
+			sourceTree = "<group>";
+		};
+		99CF271F25CBD59500464A9F /* CandleColorsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99CF272025CBD5AE00464A9F /* CandleColorsViewController.swift */,
+			);
+			path = CandleColorsViewController;
+			sourceTree = "<group>";
+		};
+		99CFD41125C01514003C98E1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				996FAFF425C1521D00D074DF /* ViewController.swift */,
+				99CFD41225C01533003C98E1 /* BaseVCAndBaseNavi */,
+				99CFD47125C029A5003C98E1 /* HomeViewController */,
+				996FAFF125C14C4000D074DF /* SpellsCategoryViewController */,
+				992AE9F925C1762800BC5A75 /* SpellsViewController */,
+				993D291E25C19A9A00599B74 /* SideMenuViewController */,
+				99DB88F425C9581800F678E5 /* HerbsAndOilsViewController */,
+				99A227E225CAA7F4004AD01E /* CalendarViewController */,
+				99A227E625CABF0A004AD01E /* LunarCalendarViewController */,
+				990B310325CBABC900AB2295 /* FavoritesViewController */,
+				99217F4A25CBBD170061A658 /* ContentViewController */,
+				99CF271F25CBD59500464A9F /* CandleColorsViewController */,
+				990A63ED25DFAB9E00406AA0 /* NotesViewController */,
+				99B4972325E4D38B009D9224 /* LunarMoonPhasesViewController */,
+				9964E91625E794FD008865B3 /* AboutViewController */,
+				99A0647C2620678100B637ED /* UnlockWiccaViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		99CFD41225C01533003C98E1 /* BaseVCAndBaseNavi */ = {
+			isa = PBXGroup;
+			children = (
+				99CFD41325C01556003C98E1 /* BaseNavi.swift */,
+				99CFD41525C01564003C98E1 /* BaseVc.swift */,
+			);
+			path = BaseVCAndBaseNavi;
+			sourceTree = "<group>";
+		};
+		99CFD41725C01599003C98E1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				99CFD41825C015A2003C98E1 /* Fonts */,
+				99CFD41925C015AE003C98E1 /* Localization */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		99CFD41825C015A2003C98E1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				99CFD41A25C016B3003C98E1 /* Playfair_Display */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		99CFD41925C015AE003C98E1 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				99CFD43B25C017CE003C98E1 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		99CFD41A25C016B3003C98E1 /* Playfair_Display */ = {
+			isa = PBXGroup;
+			children = (
+				99CFD41C25C016C3003C98E1 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */,
+				99CFD41B25C016C3003C98E1 /* PlayfairDisplay-VariableFont_wght.ttf */,
+				99CFD42625C016D1003C98E1 /* PlayfairDisplay-Black.ttf */,
+				99CFD42A25C016D1003C98E1 /* PlayfairDisplay-BlackItalic.ttf */,
+				99CFD42825C016D1003C98E1 /* PlayfairDisplay-Bold.ttf */,
+				99CFD42125C016D1003C98E1 /* PlayfairDisplay-BoldItalic.ttf */,
+				99CFD42025C016D0003C98E1 /* PlayfairDisplay-ExtraBold.ttf */,
+				99CFD42725C016D1003C98E1 /* PlayfairDisplay-ExtraBoldItalic.ttf */,
+				99CFD42925C016D1003C98E1 /* PlayfairDisplay-Italic.ttf */,
+				99CFD42225C016D1003C98E1 /* PlayfairDisplay-Medium.ttf */,
+				99CFD42425C016D1003C98E1 /* PlayfairDisplay-MediumItalic.ttf */,
+				99CFD41F25C016D0003C98E1 /* PlayfairDisplay-Regular.ttf */,
+				99CFD42325C016D1003C98E1 /* PlayfairDisplay-SemiBold.ttf */,
+				99CFD42525C016D1003C98E1 /* PlayfairDisplay-SemiBoldItalic.ttf */,
+			);
+			path = Playfair_Display;
+			sourceTree = "<group>";
+		};
+		99CFD43C25C017F1003C98E1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				99CFD43D25C01875003C98E1 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		99CFD43F25C018C2003C98E1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				99CFD44325C018E1003C98E1 /* HTTPStatusCode.swift */,
+				99CFD44225C018E1003C98E1 /* JsonDecoderEncoder+Any.swift */,
+				99CFD44125C018E1003C98E1 /* Network.swift */,
+				99CFD44025C018E1003C98E1 /* API.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		99CFD44825C019C5003C98E1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				99E8B2CC25BEEC8F009C35A6 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		99CFD44925C019DD003C98E1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9957F74B25D14E40006E3F4E /* FavoriteViewModel */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		99CFD44A25C019E4003C98E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99E0127A25C2A3A7009E0529 /* SpellCategoryModel */,
+				99767E8725C7C7B900272148 /* SpellModel */,
+				99DB88F925C9596D00F678E5 /* HerbsAndOilsModel */,
+				997C92BD25DA914800B8892C /* CalendarEventModel */,
+				99599B3525CAC6A500CC1AF4 /* LunarCalenderModel */,
+				994DAD0725DA9BC500C83A05 /* CandleColorModel */,
+				9957F74E25D150BE006E3F4E /* FavoriteModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99CFD44B25C01A43003C98E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99CFD45125C01AAB003C98E1 /* SwiftyJSON */,
+				99CFD44D25C01A70003C98E1 /* Reachability */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		99CFD44D25C01A70003C98E1 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				99CFD44E25C01A93003C98E1 /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		99CFD45125C01AAB003C98E1 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				99CFD45225C01AC7003C98E1 /* SwiftyJSON.swift */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		99CFD45425C01AF4003C98E1 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				995AB0402624391000B73D2C /* IAP Helper */,
+				99CFD45825C01B59003C98E1 /* Extension */,
+				99CFD45525C01AFF003C98E1 /* Managers */,
+				99CFD46225C01FB2003C98E1 /* AttributedStringBuilder.swift */,
+				99CFD46425C01FB2003C98E1 /* Color+Ext.swift */,
+				99CFD46525C01FB2003C98E1 /* Fonts+Ext.swift */,
+				99CFD46325C01FB2003C98E1 /* StoryboardScene.swift */,
+				995AB04526243D3D00B73D2C /* DateFormat.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		99CFD45525C01AFF003C98E1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				99CFD45625C01B19003C98E1 /* StorageManager.swift */,
+				995AB049262442D300B73D2C /* RefreshManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		99CFD45825C01B59003C98E1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				99CFD45A25C01B70003C98E1 /* Foundation */,
+				99CFD45925C01B62003C98E1 /* UIKit */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		99CFD45925C01B62003C98E1 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				99CFD45C25C01B8B003C98E1 /* UIViewExt.swift */,
+				99CFD46025C01E9F003C98E1 /* UIKitExtension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		99CFD45A25C01B70003C98E1 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				99CFD45E25C01DA6003C98E1 /* FoundationExtension.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		99CFD47125C029A5003C98E1 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99CFD47525C02C07003C98E1 /* CellXIB */,
+				99CFD47325C029D7003C98E1 /* HomeViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		99CFD47525C02C07003C98E1 /* CellXIB */ = {
+			isa = PBXGroup;
+			children = (
+				99CFD47A25C03F46003C98E1 /* MenuItemCollectionViewCell.swift */,
+				99CFD47B25C03F46003C98E1 /* MenuItemCollectionViewCell.xib */,
+			);
+			path = CellXIB;
+			sourceTree = "<group>";
+		};
+		99DB88F425C9581800F678E5 /* HerbsAndOilsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99DB88F525C9584900F678E5 /* CellXIB */,
+				99DB88F625C9586D00F678E5 /* HerbsAndOilsViewController.swift */,
+			);
+			path = HerbsAndOilsViewController;
+			sourceTree = "<group>";
+		};
+		99DB88F525C9584900F678E5 /* CellXIB */ = {
+			isa = PBXGroup;
+			children = (
+				996640BA25C972D100229877 /* HerbsAndOilsHeader.swift */,
+				996640BC25C972DD00229877 /* HerbsAndOilsHeader.xib */,
+			);
+			path = CellXIB;
+			sourceTree = "<group>";
+		};
+		99DB88F925C9596D00F678E5 /* HerbsAndOilsModel */ = {
+			isa = PBXGroup;
+			children = (
+				99DB88FA25C9597A00F678E5 /* HerbsAndOilsModel.swift */,
+			);
+			path = HerbsAndOilsModel;
+			sourceTree = "<group>";
+		};
+		99E0127A25C2A3A7009E0529 /* SpellCategoryModel */ = {
+			isa = PBXGroup;
+			children = (
+				99E0127C25C2A3E3009E0529 /* SpellCategoryModel.swift */,
+			);
+			path = SpellCategoryModel;
+			sourceTree = "<group>";
+		};
+		99E8B2BC25BEEC8F009C35A6 = {
+			isa = PBXGroup;
+			children = (
+				99E8B2C725BEEC8F009C35A6 /* Wicca */,
+				99E8B2C625BEEC8F009C35A6 /* Products */,
+				5C599D563BE42CC01C1F3DD0 /* Pods */,
+				6A4037E843F6A90BA49A2ADE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99E8B2C625BEEC8F009C35A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99E8B2C525BEEC8F009C35A6 /* Wicca.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99E8B2C725BEEC8F009C35A6 /* Wicca */ = {
+			isa = PBXGroup;
+			children = (
+				99E8B2D125BEEC92009C35A6 /* LaunchScreen.storyboard */,
+				997AF68825BEEECE00D63672 /* ApplicationLogic */,
+				99CFD45425C01AF4003C98E1 /* Global */,
+				99CFD41725C01599003C98E1 /* Helper */,
+				99CFD43C25C017F1003C98E1 /* Constants */,
+				99CFD43F25C018C2003C98E1 /* Network */,
+				99CFD44825C019C5003C98E1 /* Storyboard */,
+				99CFD44A25C019E4003C98E1 /* Model */,
+				99CFD44925C019DD003C98E1 /* ViewModel */,
+				99CFD41125C01514003C98E1 /* ViewControllers */,
+				99CFD44B25C01A43003C98E1 /* Frameworks */,
+				99E8B2CF25BEEC92009C35A6 /* Assets.xcassets */,
+				99CFD46F25C02618003C98E1 /* gitignore */,
+				99E8B2D425BEEC92009C35A6 /* Info.plist */,
+				995AB03D26241D6000B73D2C /* GoogleService-Info.plist */,
+			);
+			path = Wicca;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99E8B2C425BEEC8F009C35A6 /* Wicca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99E8B2D725BEEC92009C35A6 /* Build configuration list for PBXNativeTarget "Wicca" */;
+			buildPhases = (
+				F8A5A1047B679390C9B84643 /* [CP] Check Pods Manifest.lock */,
+				99E8B2C125BEEC8F009C35A6 /* Sources */,
+				99E8B2C225BEEC8F009C35A6 /* Frameworks */,
+				99E8B2C325BEEC8F009C35A6 /* Resources */,
+				C9AF0EB5F6590945D29ED667 /* [CP] Embed Pods Frameworks */,
+				995AB03F2624205700B73D2C /* Firebase Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wicca;
+			productName = Wicca;
+			productReference = 99E8B2C525BEEC8F009C35A6 /* Wicca.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99E8B2BD25BEEC8F009C35A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Jay Jariwala";
+				TargetAttributes = {
+					99E8B2C425BEEC8F009C35A6 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 99E8B2C025BEEC8F009C35A6 /* Build configuration list for PBXProject "Wicca" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99E8B2BC25BEEC8F009C35A6;
+			productRefGroup = 99E8B2C625BEEC8F009C35A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99E8B2C425BEEC8F009C35A6 /* Wicca */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99E8B2C325BEEC8F009C35A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E8B2D325BEEC92009C35A6 /* LaunchScreen.storyboard in Resources */,
+				993D292725C19F9200599B74 /* SideMenuTableViewCell.xib in Resources */,
+				99CFD41E25C016C3003C98E1 /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */,
+				99CFD43125C016D1003C98E1 /* PlayfairDisplay-SemiBoldItalic.ttf in Resources */,
+				99CFD43425C016D1003C98E1 /* PlayfairDisplay-Bold.ttf in Resources */,
+				99CFD42F25C016D1003C98E1 /* PlayfairDisplay-SemiBold.ttf in Resources */,
+				99CFD43225C016D1003C98E1 /* PlayfairDisplay-Black.ttf in Resources */,
+				99CFD43625C016D1003C98E1 /* PlayfairDisplay-BlackItalic.ttf in Resources */,
+				99A064872620768E00B637ED /* FeaturesTableViewCell.xib in Resources */,
+				99CFD42B25C016D1003C98E1 /* PlayfairDisplay-Regular.ttf in Resources */,
+				99CFD43525C016D1003C98E1 /* PlayfairDisplay-Italic.ttf in Resources */,
+				995AB03E26241D6000B73D2C /* GoogleService-Info.plist in Resources */,
+				996640BD25C972DD00229877 /* HerbsAndOilsHeader.xib in Resources */,
+				99E8B2D025BEEC92009C35A6 /* Assets.xcassets in Resources */,
+				99CFD43325C016D1003C98E1 /* PlayfairDisplay-ExtraBoldItalic.ttf in Resources */,
+				99CFD42E25C016D1003C98E1 /* PlayfairDisplay-Medium.ttf in Resources */,
+				99A0648326206B6B00B637ED /* WiccaLogoTableViewCell.xib in Resources */,
+				99CFD42D25C016D1003C98E1 /* PlayfairDisplay-BoldItalic.ttf in Resources */,
+				99CFD43925C017CE003C98E1 /* Localizable.strings in Resources */,
+				99CFD47D25C03F46003C98E1 /* MenuItemCollectionViewCell.xib in Resources */,
+				996FAFFA25C1526900D074DF /* CategoryTableViewCell.xib in Resources */,
+				99CFD41D25C016C3003C98E1 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */,
+				99CFD43025C016D1003C98E1 /* PlayfairDisplay-MediumItalic.ttf in Resources */,
+				99A356942624053500DA59BD /* PurchaseTableViewCell.xib in Resources */,
+				99E8B2CE25BEEC8F009C35A6 /* Main.storyboard in Resources */,
+				99CFD47025C02619003C98E1 /* gitignore in Resources */,
+				99CFD42C25C016D1003C98E1 /* PlayfairDisplay-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		995AB03F2624205700B73D2C /* Firebase Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Firebase Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		C9AF0EB5F6590945D29ED667 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wicca/Pods-Wicca-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wicca/Pods-Wicca-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wicca/Pods-Wicca-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A5A1047B679390C9B84643 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wicca-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99E8B2C125BEEC8F009C35A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DB88FB25C9597A00F678E5 /* HerbsAndOilsModel.swift in Sources */,
+				9957F75125D150D8006E3F4E /* FavoriteModel.swift in Sources */,
+				9964E91825E79512008865B3 /* AboutViewController.swift in Sources */,
+				99CFD45F25C01DA7003C98E1 /* FoundationExtension.swift in Sources */,
+				99A356932624053500DA59BD /* PurchaseTableViewCell.swift in Sources */,
+				995AB04626243D3D00B73D2C /* DateFormat.swift in Sources */,
+				992AE9FC25C1765000BC5A75 /* SubCategoryViewController.swift in Sources */,
+				995AB04426243A4000B73D2C /* IAPManager.swift in Sources */,
+				99CFD45D25C01B8B003C98E1 /* UIViewExt.swift in Sources */,
+				996FAFF925C1526900D074DF /* CategoryTableViewCell.swift in Sources */,
+				997C92BF25DA916100B8892C /* CalendarEventModel.swift in Sources */,
+				99A064862620768D00B637ED /* FeaturesTableViewCell.swift in Sources */,
+				99CFD47425C029D7003C98E1 /* HomeViewController.swift in Sources */,
+				99CFD41425C01556003C98E1 /* BaseNavi.swift in Sources */,
+				99DB88F725C9586D00F678E5 /* HerbsAndOilsViewController.swift in Sources */,
+				996FAFF525C1521D00D074DF /* ViewController.swift in Sources */,
+				99CFD41625C01564003C98E1 /* BaseVc.swift in Sources */,
+				99CFD46825C01FB2003C98E1 /* Color+Ext.swift in Sources */,
+				99CFD46125C01E9F003C98E1 /* UIKitExtension.swift in Sources */,
+				99599B3725CAC6C100CC1AF4 /* LunarCalenderModel.swift in Sources */,
+				99CFD45725C01B19003C98E1 /* StorageManager.swift in Sources */,
+				993D292625C19F9200599B74 /* SideMenuTableViewCell.swift in Sources */,
+				9957F74D25D14E63006E3F4E /* FavoriteViewModel.swift in Sources */,
+				99A0647E262067AA00B637ED /* UnlockWiccaViewController.swift in Sources */,
+				99CFD44525C018E1003C98E1 /* Network.swift in Sources */,
+				995AB04A262442D300B73D2C /* RefreshManager.swift in Sources */,
+				99CFD46925C01FB2003C98E1 /* Fonts+Ext.swift in Sources */,
+				993D292225C19AC100599B74 /* SideMenuViewController.swift in Sources */,
+				99CFD46725C01FB2003C98E1 /* StoryboardScene.swift in Sources */,
+				99A0648226206B6B00B637ED /* WiccaLogoTableViewCell.swift in Sources */,
+				99767E8A25C7C7DA00272148 /* SpellModel.swift in Sources */,
+				99A227E525CAA840004AD01E /* CalendarViewController.swift in Sources */,
+				99E0127D25C2A3E3009E0529 /* SpellCategoryModel.swift in Sources */,
+				996640BB25C972D100229877 /* HerbsAndOilsHeader.swift in Sources */,
+				99CF272125CBD5AE00464A9F /* CandleColorsViewController.swift in Sources */,
+				99CFD45325C01AC7003C98E1 /* SwiftyJSON.swift in Sources */,
+				99E8B2C925BEEC8F009C35A6 /* AppDelegate.swift in Sources */,
+				99CFD43E25C01875003C98E1 /* Constants.swift in Sources */,
+				99217F4C25CBBD350061A658 /* ContentViewController.swift in Sources */,
+				99CFD46625C01FB2003C98E1 /* AttributedStringBuilder.swift in Sources */,
+				99CFD44F25C01A93003C98E1 /* Reachability.swift in Sources */,
+				994DAD0925DA9BED00C83A05 /* CandleColorModel.swift in Sources */,
+				99B4972525E4D3B3009D9224 /* LunarMoonPhasesViewController.swift in Sources */,
+				996FAFF325C14C5C00D074DF /* CategoryViewController.swift in Sources */,
+				99C5415225DAB3680039E8AD /* LunarCalendarViewController.swift in Sources */,
+				990B310625CBABFC00AB2295 /* FavoritesViewController.swift in Sources */,
+				99CFD44425C018E1003C98E1 /* API.swift in Sources */,
+				990A63EF25DFABC800406AA0 /* NotesViewController.swift in Sources */,
+				99CFD44725C018E1003C98E1 /* HTTPStatusCode.swift in Sources */,
+				99CFD44625C018E1003C98E1 /* JsonDecoderEncoder+Any.swift in Sources */,
+				99CFD47C25C03F46003C98E1 /* MenuItemCollectionViewCell.swift in Sources */,
+				995AB0422624393D00B73D2C /* WiccaIPAProducts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99CFD43B25C017CE003C98E1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99CFD43A25C017CE003C98E1 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		99E8B2CC25BEEC8F009C35A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99E8B2CD25BEEC8F009C35A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99E8B2D125BEEC92009C35A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99E8B2D225BEEC92009C35A6 /* Base */,
+				99CFD46B25C023EB003C98E1 /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99E8B2D525BEEC92009C35A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99E8B2D625BEEC92009C35A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99E8B2D825BEEC92009C35A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3886A635BB75636C8C206E42 /* Pods-Wicca.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4LPXEPAKC3;
+				INFOPLIST_FILE = Wicca/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigideaapps.Wikka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		99E8B2D925BEEC92009C35A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8895E5E28FC0ECD9F082DBDB /* Pods-Wicca.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4LPXEPAKC3;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4LPXEPAKC3;
+				INFOPLIST_FILE = Wicca/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigideaapps.Wikka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99E8B2C025BEEC8F009C35A6 /* Build configuration list for PBXProject "Wicca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E8B2D525BEEC92009C35A6 /* Debug */,
+				99E8B2D625BEEC92009C35A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E8B2D725BEEC92009C35A6 /* Build configuration list for PBXNativeTarget "Wicca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E8B2D825BEEC92009C35A6 /* Debug */,
+				99E8B2D925BEEC92009C35A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99E8B2BD25BEEC8F009C35A6 /* Project object */;
+}
